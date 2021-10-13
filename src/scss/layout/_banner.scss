@@ -48,13 +48,16 @@
                     font-size: 3.5rem;
                 }
                 font-size: 2rem;
-                &::after{
-                    content: "";
-                    height: 1rem;
-                    width: 100%;
-                    background-color: $azul;
-                    display: block;
-                    margin: -1.6rem 0 0 0;
+                span{
+                    display: inline-block;
+                    &::after{
+                        content: "";
+                        height: 1rem;
+                        width: 100%;
+                        background-color: $azul;
+                        display: block;
+                        margin: -1.7rem 0 0 0;
+                    }
                 }
             }
             h2{
